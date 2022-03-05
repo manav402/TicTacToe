@@ -3,7 +3,9 @@ My first ever android game devloped on java with android studio
 
 HOW TO INSTALL :-
 
-wait for project to get finished then you can download with given link the app is on devlopment phase now.
+https://i.diawi.com/G6C3Rw
+
+install it from this third party site at your own risk or mail me for direct apk file (vyasmanav07@gmail.com)
 
 HOW TO USE THIS REPO:-
 
