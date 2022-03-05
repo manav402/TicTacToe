@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="heading">Tic Tac Toe</string>
+    <string name="bottom">X\'s turn</string>
+    <string name="grid_dis">grid</string>
+    <string name="images">image</string>
+    <string name="pvp">1 vs 1</string>
+    <string name="ai">Computer</string>
+    <string name="first">O will start first</string>
+    <string name="choiceO">Choose O</string>
+    <string name="choiceX">Choose X</string>
+</resources>
