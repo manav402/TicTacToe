@@ -23,7 +23,7 @@
         android:layout_width="225dp"
         android:layout_height="85dp"
         android:onClick="choiceX"
-        android:text="@string/choiceX"
+        android:text="InDevlopment"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

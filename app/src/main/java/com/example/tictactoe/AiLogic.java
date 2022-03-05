@@ -58,7 +58,7 @@ public class AiLogic extends AppCompatActivity {
         if(ResetGame){
             reset(view);
         }
-       if(!isStart) {
+       if(!isStart && player==0) {
 //          view1.setImageResource(R.drawable.o);
 //          tview.setText("X's turn");
 //          int ra= rand.nextInt(8);
@@ -67,10 +67,13 @@ public class AiLogic extends AppCompatActivity {
                place[box]=0;
                view1.setImageResource(R.drawable.o);
                occupied++;
+               if(occupied>=8){
+                   occupiedAll=true;
+               }
                tview.setText("X's turn");
 //               while(count!=10 || place[ra]!=2) {
                ra = rand.nextInt(8);
-               if(place[ra]==2) {
+               if(place[ra]==2 && !occupiedAll) {
                    place[ra] = 1;
                    occupied++;
                    ImageView img = findViewById(viewId[ra]);
@@ -78,7 +81,7 @@ public class AiLogic extends AppCompatActivity {
                    tview.setText("O's turn");
                    thinking = false;
                }
-               else{
+               else if(!occupiedAll){
                    thinking=true;
                    tview.setText("Thinking");
                    while(place[ra]!=2){
