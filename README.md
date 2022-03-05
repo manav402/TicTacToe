@@ -3,7 +3,7 @@ My first ever android game devloped on java with android studio
 
 HOW TO INSTALL :-
 
-https://i.diawi.com/G6C3Rw
+https://i.diawi.com/FNyhUU
 
 install it from this third party site at your own risk or mail me for direct apk file (vyasmanav07@gmail.com)
 
